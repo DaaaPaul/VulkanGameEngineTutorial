@@ -26,6 +26,7 @@
     <ClInclude Include="source\LV_pipeline.h" />
     <ClInclude Include="source\LV_window.h" />
     <ClInclude Include="source\LV_device.h" />
+    <ClInclude Include="source\LV_swapchain.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source\LV_app.cpp" />
@@ -33,6 +34,7 @@
     <ClCompile Include="source\LV_window.cpp" />
     <ClCompile Include="source\main.cpp" />
     <ClCompile Include="source\LV_device.cpp" />
+    <ClCompile Include="source\LV_swapchain.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

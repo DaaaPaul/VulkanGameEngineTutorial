@@ -2,7 +2,7 @@
 #include <stdexcept>
 
 namespace LV {
-	LV_window::LV_window(unsigned w, unsigned h, const char* n) : width{ w }, height{ h }, name{ n } {
+	LV_window::LV_window(uint32_t w, uint32_t h, const char* n) : width{ w }, height{ h }, name{ n } {
 		initWindow();
 	}
 
